@@ -15,6 +15,8 @@ seq(1,10,by=2)
 y <- c(1:6,0,-3)
 z <- 1:7
 
+
+
 #Experiment-2
 age=c(30,37,45,32,50,60,35,32,34,43,32,30,43,50,60)
 empinfo <- data.frame(empid, age, gender, status)
@@ -28,6 +30,8 @@ pie(table1)
 barplot(table2,beside=T,xlim=c(1,15),ylim=c(0,5),col=c("blue", "red"))
 legend("topright",legend=rownames(table2),fill=c('blue','red'),bty="n")
 boxplot(empinfo$age~empinfo$status,col=c('red','blue'))
+
+
 
 #Experiment-3 : Correlation & Regression
 data=cars
@@ -53,6 +57,8 @@ coeff=coefficients(regression1)
 mode1<-lm(bmi~weight)
 summary.lm(mode1)
 
+
+
 #Experiment-4 : Multiple regression
 # Linear regression model of Y on X1 and X2
 X=data$mpg
@@ -63,6 +69,8 @@ RegModel
 library(scatterplot3d)
 graph=scatterplot3d(X,Y,Z)
 graph$plane3d(RegModel)
+
+
 
 #Experiment-5 : Binomial Distribution
 n=10
