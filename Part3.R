@@ -23,6 +23,7 @@ if(cv <= tv){print("Accept Ho")} else{print("Reject Ho")}
 
 
 
+
 #Experiment-10
 #chi-square goodness of fit test
 n=5
